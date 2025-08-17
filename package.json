@@ -15,7 +15,8 @@
     "preview": "vite preview",
     "preview:https": "vite preview --host 0.0.0.0 --port 4173",
     "setup-certs": "node scripts/setup-https.js",
-    "tunnel": "node scripts/tunnel-setup.js"
+    "tunnel": "node scripts/tunnel-setup.js",
+    "postinstall": "npm rebuild"
   },
   "dependencies": {
     "@firebasegen/default-connector": "file:dataconnect-generated/js/default-connector",
